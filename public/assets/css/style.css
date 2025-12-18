@@ -373,8 +373,8 @@ img {
 
 :root {
   --vkl-text-text-1: #fff;
-  --vkl-text-theme-color-1: #2093ca;
-  --vkl-text-text-2: #0e374a;
+  --vkl-text-theme-color-1: #0866FF;
+  --vkl-text-text-2: #465ba8;
   --vkl-text-text-3: #5b5f61;
   --vkl-text-text-4: #103749;
   --vkl-text-text-5: #d9e2e5;
@@ -6882,7 +6882,7 @@ textarea {
   height: 100%;
   width: 100%;
   opacity: 0.7;
-  background: #0e374a;
+  background: #465ba8;
   z-index: 1;
   border-radius: 8px;
   opacity: 0.5;
@@ -9126,8 +9126,8 @@ textarea {
   border: 1px solid rgba(14, 55, 74, 0.1);
 }
 .vl-contact-form .nice-select.wide.vl-select-date:after {
-  border-bottom: 2px solid #0e374a;
-  border-right: 2px solid #0e374a;
+  border-bottom: 2px solid #465ba8;
+  border-right: 2px solid #465ba8;
   content: "";
   display: block;
   margin-top: -7px;
@@ -9440,7 +9440,7 @@ textarea {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #0e374a;
+  background: #465ba8;
   opacity: 0.65;
   z-index: -1;
 }
@@ -11768,7 +11768,7 @@ textarea {
   height: 81px;
   top: 0;
   width: 81px;
-  border: 2px solid #2093ca;
+  border: 2px solid #0866FF;
   border-radius: 50px;
 }
 
@@ -11981,9 +11981,9 @@ textarea {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #0e374a;
+  background: #465ba8; 
   z-index: -1;
-  opacity: 0.65;
+  opacity: 0.45;
 }
 .vl-banner-area .shap3e {
   position: absolute;
@@ -11998,7 +11998,7 @@ textarea {
 }
 
 .vl-banner-area-content .subtitle {
-  background: #6e7c83;
+  background: #465ba8;
   display: inline-block;
   color: var(--vkl-text-text-1);
   border-radius: 8px;

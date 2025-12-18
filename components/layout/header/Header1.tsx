@@ -13,7 +13,12 @@ export default function Header({ scroll, isMobileMenu, mainMenuStyle, handleMobi
                             <div className="col-lg-3 col-md-6 col-6">
                                 <div className="vl-logo">
                                     <Link href="/">
-                                        <img src="assets/img/logo/vl-logo-1.1.png" alt="" />
+                                    <img
+                                        src="assets/img/logo/Boka_Logotipo_RGB-02.png"
+                                        alt="Boka Mx - Clínica Dental"
+                                        style={{ maxHeight: '60px', width: 'auto', height: 'auto' }}
+                                    />
+                                        
                                     </Link>
                                 </div>
                             </div>
@@ -35,9 +40,9 @@ export default function Header({ scroll, isMobileMenu, mainMenuStyle, handleMobi
                                             </span>
                                         </div>
                                         <div className="vl-content">
-                                            <div className="title">Hotline 24/7</div>
+                                            <div className="title">Llamanos!</div>
                                             <Link href="tel:+49309233255" className="number">
-                                                +49 30 9233255
+                                                +52 747 161 9921
                                             </Link>
                                         </div>
                                     </div>

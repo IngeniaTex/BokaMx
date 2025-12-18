@@ -72,7 +72,7 @@ export default function Section1({ background }: { background: string }) {
                 </div>
             </section>
             {/*================= Choose us section start =================*/}
-            <ModalVideo channel="youtube" videoId="vR24qT-I5ko" isOpen={isOpen} onClose={() => setOpen(false)} />
+            <ModalVideo channel="youtube" videoId="UCHobATgOHOQNPAmkak-W1CA" isOpen={isOpen} onClose={() => setOpen(false)} />
         </>
     );
 }

@@ -38,33 +38,30 @@ export default function Section1() {
         <div className="swiper-wrapper">
           <SwiperSlide className="swiper-slide">
             {/* single slider */}
-            <div className="vl-banner-area" data-background="./assets/img/banner/vl-banner-1.1.png">
+            <div className="vl-banner-area" data-background="./assets/img/banner/banner_boka.jpg">
               <div className="shape shape-1">
                 <img src="assets/img/shape/vl-hero-shape-1.1.svg" alt="" />
-              </div>
-              <div className="shap3e circle">
-                <img src="assets/img/shape/vl-star-shape-1.1.svg" alt="" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-6 fix">
                     <div className="vl-banner-area-content fix p-relative">
-                      <h5 className="subtitle">Confident Smile Begins Here</h5>
-                      <h1 className="title text-anime-style-3 pt-16 pb-16">Creating Beautiful Smiles With The Personal Touch</h1>
+                      <h5 className="subtitle">Tu sonrisa, nuestra prioridad</h5>
+                      <h1 className="title text-anime-style-3 pt-16 pb-16">Crea una sonrisa hermosa con un toque personalizado</h1>
                       <p className="para pb-32">
-                        Our dedicated team of professionals is committed to delivering <br /> personalized, high-quality dental care a comfortable &amp; friendly.
+                      En Boka nuestro equipo de especialistas está comprometido con ofrecer atención dental personalizada, de alta calidad y en un entorno cómodo y confiable.
                       </p>
                       {/* btn */}
                       <div className="vl-hero-btn" data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
                         <Link href="/contact" className="vl-btn-primary">
-                          Book An Appoinment
+                          Agenda tu cita!                                                                              
                         </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 p-relative">
                     <div className="video-shape">
-                      <img src="assets/img/banner/vl-popup-video-thumb.png" alt="" />
+                      <img src="assets/img/banner/clinic-boka.jpg" alt="" />
                       <div className="play-button-container">
                         <div className="play-button" onClick={() => setOpen(true)}>
                           <div className="play-icon popup-video">
@@ -84,33 +81,30 @@ export default function Section1() {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             {/* single slider */}
-            <div className="vl-banner-area" data-background="./assets/img/banner/vl-banner-1.1.png">
+            <div className="vl-banner-area" data-background="./assets/img/banner/banner_boka.jpg">
               <div className="shape shape-1">
                 <img src="assets/img/shape/vl-hero-shape-1.1.svg" alt="" />
-              </div>
-              <div className="shap3e circle">
-                <img src="assets/img/shape/vl-star-shape-1.1.svg" alt="" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-6 fix">
                     <div className="vl-banner-area-content fix p-relative">
-                      <h5 className="subtitle">Confident Smile Begins Here</h5>
-                      <h1 className="title text-anime-style-3 pt-16 pb-16">Creating Beautiful Smiles With The Personal Touch</h1>
+                      <h5 className="subtitle">Excelencia en odontología </h5>
+                      <h1 className="title text-anime-style-3 pt-16 pb-16">Tecnología avanzada y especialistas certificados</h1>
                       <p className="para pb-32">
-                        Our dedicated team of professionals is committed to delivering <br /> personalized, high-quality dental care a comfortable &amp; friendly.
+                      La tranquilidad de nuestros pacientes es importante; contamos con un grupo de especialistas y tecnología logrando resultados estéticos y funcionales.
                       </p>
                       {/* btn */}
                       <div className="vl-hero-btn" data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
                         <Link href="/contact" className="vl-btn-primary">
-                          Book An Appoinment
+                          Agenda tu cita!
                         </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 p-relative">
                     <div className="video-shape">
-                      <img src="assets/img/banner/vl-popup-video-thumb.png" alt="" />
+                      <img src="assets/img/banner/clinic-boka.jpg" alt="" />
                       <div className="play-button-container">
                         <div className="play-button" onClick={() => setOpen(true)}>
                           <div className="play-icon popup-video">
@@ -128,57 +122,12 @@ export default function Section1() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            {/* single slider */}
-            <div className="vl-banner-area" data-background="./assets/img/banner/vl-banner-1.1.png">
-              <div className="shape shape-1">
-                <img src="assets/img/shape/vl-hero-shape-1.1.svg" alt="" />
-              </div>
-              <div className="shap3e circle">
-                <img src="assets/img/shape/vl-star-shape-1.1.svg" alt="" />
-              </div>
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-6 fix">
-                    <div className="vl-banner-area-content fix p-relative">
-                      <h5 className="subtitle">Confident Smile Begins Here</h5>
-                      <h1 className="title text-anime-style-3 pt-16 pb-16">Creating Beautiful Smiles With The Personal Touch</h1>
-                      <p className="para pb-32">
-                        Our dedicated team of professionals is committed to delivering <br /> personalized, high-quality dental care a comfortable &amp; friendly.
-                      </p>
-                      {/* btn */}
-                      <div className="vl-hero-btn" data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
-                        <Link href="/contact" className="vl-btn-primary">
-                          Book An Appoinment
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 p-relative">
-                    <div className="video-shape">
-                      <img src="assets/img/banner/vl-popup-video-thumb.png" alt="" />
-                      <div className="play-button-container">
-                        <div className="play-button" onClick={() => setOpen(true)}>
-                          <div className="play-icon popup-video">
-                            <i className="fa-duotone fa-solid fa-play" />
-                          </div>
-                          {/* Play icon */}
-                        </div>
-                        <div className="wave wave-1" />
-                        <div className="wave wave-2" />
-                        <div className="wave wave-3" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+
         </div>
         <div className="swiper-pagination"></div>
       </Swiper>
       {/*================= Banner section End =================*/}
-      <ModalVideo channel="youtube" isOpen={isOpen} videoId="3MdqSkr7yfs-U" onClose={() => setOpen(false)} />
+      <ModalVideo channel="youtube" isOpen={isOpen} videoId="yD3ZjVg0RWk" onClose={() => setOpen(false)} />
     </>
   );
 }

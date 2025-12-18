@@ -7,107 +7,14 @@ export default function MainMenu() {
             <li className="has-dropdown">
                 <Link href="#">
                     Home
-                    <span>
-                        <i className="fa-regular fa-angle-down" />
-                    </span>
                 </Link>
-                <div className="vl-mega-menu">
-                    <div className="vl-home-menu">
-                        <div className="row gx-4 row-cols-1 row-cols-md-1 row-cols-lg-4">
-                            <div className="col mb-25">
-                                <div className="vl-home-thumb br-8 fix">
-                                    <div className="vl-thumb">
-                                        <img className="w-100" src="assets/img/demo/vl-demo-1.1.png" alt="" />
-                                    </div>
-                                    <div className="vl-thumb-btn">
-                                        <Link href="/" className="vl-btn-primary mb-20">
-                                            Multi Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                        <Link href="/index-single-one" className="vl-btn-primary">
-                                            One Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-25">
-                                <div className="vl-home-thumb br-8 fix">
-                                    <div className="vl-thumb">
-                                        <img className="w-100" src="assets/img/demo/vl-demo-1.2.png" alt="" />
-                                    </div>
-                                    <div className="vl-thumb-btn">
-                                        <Link href="/index-2" className="vl-btn-primary mb-20">
-                                            Multi Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                        <Link href="/index-single-two" className="vl-btn-primary">
-                                            One Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-25">
-                                <div className="vl-home-thumb br-8 fix">
-                                    <div className="vl-thumb">
-                                        <img className="w-100" src="assets/img/demo/vl-demo-1.3.png" alt="" />
-                                    </div>
-                                    <div className="vl-thumb-btn">
-                                        <Link href="/index-3" className="vl-btn-primary mb-20">
-                                            Multi Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                        <Link href="/index-single-three" className="vl-btn-primary">
-                                            One Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col mb-25">
-                                <div className="vl-home-thumb br-8 fix">
-                                    <div className="vl-thumb">
-                                        <img className="w-100" src="assets/img/demo/vl-demo-1.4.png" alt="" />
-                                    </div>
-                                    <div className="vl-thumb-btn">
-                                        <Link href="/index-4" className="vl-btn-primary mb-20">
-                                            Multi Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                        <Link href="/index-single-four" className="vl-btn-primary">
-                                            One Page
-                                            <span>
-                                                <i className="fa-solid fa-arrow-right" />
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </li>
             <li>
-                <Link href="/about">About us</Link>
+                <Link href="/about">Nosotros</Link>
             </li>
             <li className="has-dropdown">
                 <Link href="#">
-                    Services
+                    Tratamientos
                     <span>
                         <i className="fa-regular fa-angle-down" />
                     </span>
@@ -127,7 +34,7 @@ export default function MainMenu() {
                     </li>
                 </ul>
             </li>
-            <li className="has-dropdown">
+            {/* <li className="has-dropdown">
                 <Link href="#">
                     Pages
                     <span>
@@ -173,9 +80,9 @@ export default function MainMenu() {
                         <Link href="/blog-single">Blog Single</Link>
                     </li>
                 </ul>
-            </li>
+            </li> */}
             <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact">Contacto</Link>
             </li>
         </ul>
     );
