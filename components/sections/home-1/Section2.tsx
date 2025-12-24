@@ -10,12 +10,13 @@ export default function Section2() {
                         <div className="col-lg-4 col-md-6 order-lg-1 order-md-2 mb-30">
                             <div className="vl-about-thumb-1 p-relative">
                                 <div className="vl-about-radius-thumb reveal image-anime">
-                                    <img className="w-100" src="assets/img/about/vl-about-thumb-1.1.png" alt="" />
+                                    <img className="w-100" src="assets/img/about/about-boka-1.jpg" alt="" />
                                 </div>
                                 
                             </div>
                         </div>
                         <div className="col-lg-4 order-md-1 mb-30">
+
                             <div className="vl-about-content-wrap">
                                 <div className="vl-section-title">
                                     <h5 className="subtitle" data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
@@ -35,7 +36,7 @@ export default function Section2() {
                         </div>
                         <div className="col-lg-4 col-md-6 order-md-3 mb-30">
                             <div className="vl-about-thumb-2 reveal image-anime">
-                                <img className="w-100" src="assets/img/about/vl-about-thumb-1.2.png" alt="" />
+                                <img className="w-100" src="assets/img/about/about-boka-2.jpg" alt="" />
                             </div>
                         </div>
                     </div>

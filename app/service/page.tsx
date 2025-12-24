@@ -8,10 +8,9 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <SectionHeader title="Our Service" current="Our Service" isGroup={false} linkGroup="" pageGroup="" />
-        <Section1 />
-        <Section1Service background="vl-off-white-bg" />
+        <SectionHeader title="Servicios" current="Servicios" isGroup={false} linkGroup="" pageGroup="" />
         <Section2 />
+        <Section1Service background="vl-off-white-bg" />
         <Section9 />
       </Layout>
     </>

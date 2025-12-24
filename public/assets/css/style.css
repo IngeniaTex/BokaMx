@@ -528,7 +528,67 @@ img {
   --vkl-weight-black: 800;
   --vkl-family-font1: "Figtree", serif;
 }
-
+/* =========================================
+   WhatsApp Button – Base styles
+   ========================================= */
+   .whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    border: 2px solid #25D366;
+  }
+  
+  /* Icon inherits current text color (fixes opposite-color issue) */
+  .whatsapp-button i {
+    font-size: 1.6rem;
+    color: inherit;
+  }
+  
+  /* =========================================
+     Variant A (default): Green-filled
+     - Default: solid green background, white text/icon
+     - Hover: transparent background (outline), green text/icon
+     ========================================= */
+  .whatsapp-button--filled {
+    background-color: #25D366;
+    color: #ffffff;
+  }
+  
+  .whatsapp-button--filled:hover {
+    background-color: transparent;
+    color: #25D366;
+  }
+  
+  /* =========================================
+     Variant B (dark sections): Outline for dark BG
+     - Default: transparent background, white text/icon, white border
+     - Hover: solid green with white text/icon
+     ========================================= */
+  .whatsapp-button--dark {
+    background-color: transparent;
+    color: #25D366;
+    border-color: #25D366;
+  }
+  
+  .whatsapp-button--dark:hover {
+    background-color: #25D366;
+    color: #ffffff;
+    border-color: #25D366;
+  }
+  
+  /* (Optional) Compact width if you need a shorter button */
+  .whatsapp-button--compact {
+    max-width: 170px;
+    text-align: left;
+    white-space: normal; /* allows two-line label */
+  }
 /*----------------------------------------*/
 /*  2.7 Accordion
 /*----------------------------------------*/
@@ -2088,7 +2148,8 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(14, 55, 74, 0.65);
+  background: #465ba8;
+  opacity: 0.45;
   z-index: -1;
 }
 
@@ -10065,7 +10126,7 @@ textarea {
 /*  7.7 Portfolio css
 /*----------------------------------------*/
 .vl-before-bg {
-  background: var(--vkl-text-text-4);
+  background: #465ba8;
 }
 
 .vl-before-flex {
@@ -10086,8 +10147,8 @@ textarea {
 }
 
 .vl-before-content-wraper .vl-section-title .subtitle {
-  background: var(--vkl-text-text-10);
-  color: var(--vkl-text-text-1);
+  background: #d9e2e5;
+  color: #465ba8;
 }
 .vl-before-content-wraper .vl-section-title .title {
   color: var(--vkl-text-text-1);

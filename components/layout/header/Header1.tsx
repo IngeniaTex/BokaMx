@@ -15,7 +15,7 @@ export default function Header({ scroll, isMobileMenu, mainMenuStyle, handleMobi
                                     <Link href="/">
                                     <img
                                         src="assets/img/logo/Boka_Logotipo_RGB-02.png"
-                                        alt="Boka Mx - Clínica Dental"
+                                        alt="Boka - Clínica Dental"
                                         style={{ maxHeight: '60px', width: 'auto', height: 'auto' }}
                                     />
                                         

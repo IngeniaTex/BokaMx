@@ -58,9 +58,9 @@ export default function Section7({ text_2 }: any) {
                             <div className="vl-team-sec-title3">
                                 <div className="vl-section-title3 mb-60">
                                     <h5 className={`subtitle ${text_2}`} data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
-                                        Our Team
+                                        Especialistas
                                     </h5>
-                                    <h2 className="title pt-16 text-anime-style-3">Meet the Professionals Who Make You Smile</h2>
+                                    <h2 className="title pt-16 text-anime-style-3">Conoce a los especialistas que cuidan tu sonrisa</h2>
                                 </div>
                             </div>
                         </div>
@@ -75,22 +75,12 @@ export default function Section7({ text_2 }: any) {
                                     <div className="team-social">
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-x-twitter" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-linkedin-in" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
+                                                <Link href="https://www.instagram.com/boka.mx/">
                                                     <i className="fa-brands fa-instagram" />
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="https://www.facebook.com/BokaMX">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
                                             </li>
@@ -99,35 +89,25 @@ export default function Section7({ text_2 }: any) {
                                 </div>
                                 <div className="team-content">
                                     <h4 className="title">
-                                        <Link href="/team">Desiree Wolf</Link>
+                                        <Link href="/team">Dr. Albert Lewis Aguirre Zaragoza</Link>
                                     </h4>
-                                    <span className="description">Pediatrics</span>
+                                    <span className="description">Cirugía bucal, implantes dentales, prótesis y odontología digital</span>
                                 </div>
                             </SwiperSlide>
                             {/* single team item */}
                             <SwiperSlide className="vl-single-team-bo3x">
                                 <div className="team-thumb image-anime">
-                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.2.png" alt="" />
+                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.1.png" alt="" />
                                     {/* team social icon */}
                                     <div className="team-social">
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-x-twitter" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-linkedin-in" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
+                                                <Link href="https://www.instagram.com/boka.mx/">
                                                     <i className="fa-brands fa-instagram" />
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="https://www.facebook.com/BokaMX">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
                                             </li>
@@ -136,35 +116,25 @@ export default function Section7({ text_2 }: any) {
                                 </div>
                                 <div className="team-content">
                                     <h4 className="title">
-                                        <Link href="/team">Preston Padberg</Link>
+                                        <Link href="/team">Dr. Albert Lewis Aguirre Zaragoza</Link>
                                     </h4>
-                                    <span className="description">Cardiology</span>
+                                    <span className="description">Cirugía bucal, implantes dentales, prótesis y odontología digital</span>
                                 </div>
                             </SwiperSlide>
                             {/* single team item */}
                             <SwiperSlide className="vl-single-team-bo3x">
                                 <div className="team-thumb image-anime">
-                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.3.png" alt="" />
+                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.1.png" alt="" />
                                     {/* team social icon */}
                                     <div className="team-social">
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-x-twitter" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-linkedin-in" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
+                                                <Link href="https://www.instagram.com/boka.mx/">
                                                     <i className="fa-brands fa-instagram" />
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="https://www.facebook.com/BokaMX">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
                                             </li>
@@ -173,35 +143,25 @@ export default function Section7({ text_2 }: any) {
                                 </div>
                                 <div className="team-content">
                                     <h4 className="title">
-                                        <Link href="/team">Harry Hickle V</Link>
+                                        <Link href="/team">Dr. Albert Lewis Aguirre Zaragoza</Link>
                                     </h4>
-                                    <span className="description">Orthopedics</span>
+                                    <span className="description">Cirugía bucal, implantes dentales, prótesis y odontología digital</span>
                                 </div>
                             </SwiperSlide>
                             {/* single team item */}
                             <SwiperSlide className="vl-single-team-bo3x">
                                 <div className="team-thumb image-anime">
-                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.4.png" alt="" />
+                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.1.png" alt="" />
                                     {/* team social icon */}
                                     <div className="team-social">
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-x-twitter" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-linkedin-in" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
+                                                <Link href="https://www.instagram.com/boka.mx/">
                                                     <i className="fa-brands fa-instagram" />
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="https://www.facebook.com/BokaMX">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
                                             </li>
@@ -210,35 +170,25 @@ export default function Section7({ text_2 }: any) {
                                 </div>
                                 <div className="team-content">
                                     <h4 className="title">
-                                        <Link href="/team">Harry Hickle V</Link>
+                                        <Link href="/team">Dr. Albert Lewis Aguirre Zaragoza</Link>
                                     </h4>
-                                    <span className="description">Deromatology</span>
+                                    <span className="description">Cirugía bucal, implantes dentales, prótesis y odontología digital</span>
                                 </div>
                             </SwiperSlide>
                             {/* single team item */}
                             <SwiperSlide className="vl-single-team-bo3x">
                                 <div className="team-thumb image-anime">
-                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.3.png" alt="" />
+                                    <img className="w-100" src="assets/img/team/vl-team-thumb-3.1.png" alt="" />
                                     {/* team social icon */}
                                     <div className="team-social">
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-x-twitter" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <i className="fa-brands fa-linkedin-in" />
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
+                                                <Link href="https://www.instagram.com/boka.mx/">
                                                     <i className="fa-brands fa-instagram" />
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="https://www.facebook.com/BokaMX">
                                                     <i className="fa-brands fa-facebook-f" />
                                                 </Link>
                                             </li>
@@ -247,11 +197,12 @@ export default function Section7({ text_2 }: any) {
                                 </div>
                                 <div className="team-content">
                                     <h4 className="title">
-                                        <Link href="/team">Harry Hickle V</Link>
+                                        <Link href="/team">Dr. Albert Lewis Aguirre Zaragoza</Link>
                                     </h4>
-                                    <span className="description">Orthopedics</span>
+                                    <span className="description">Cirugía bucal, implantes dentales, prótesis y odontología digital</span>
                                 </div>
                             </SwiperSlide>
+                            {/* single team item */}
                         </Swiper>
                         <div className="owl-nav">
                             <button className="owl-next">

@@ -50,7 +50,8 @@ export default function Section4() {
             <div className="col-lg-4">
               <div className="vl-brand-iner-title">
                 <h3 className="title">
-                  Trusted by the industry's <br /> leading insurance provider
+                Con la confianza de las <br /> principales proveedores del sector dental
+
                 </h3>
               </div>
             </div>

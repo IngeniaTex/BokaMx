@@ -17,7 +17,7 @@ export default function Section1() {
                                 </div>
                                 <div className="content">
                                     <h4 className="title">
-                                        <Link href="/service-single">Restorative Solutions</Link>
+                                        <Link href="/service-single">Estética Dental</Link>
                                     </h4>
                                     <p className="para">
                                         We’re proud to offer a comprehensive <br /> range of dental services designed to meet <br /> the unique needs each patient.

@@ -12,15 +12,19 @@ export default function Section9() {
               <div className="col-lg-5" />
               <div className="col-lg-5">
                 <div className="vl-cta-content">
-                  <h3 className="title text-anime-style-3 pb-32">Don’t Wait Your Smile Deserves the Best</h3>
-                  <div className="vl-cta-form">
-                    <form action="#">
-                      <input name="email" type="email" placeholder="Enter Your Email" />
-                      <div className="cta-submit-btn">
-                        <button className="vl-btn-primary">Subscribe Now</button>
-                      </div>
-                    </form>
-                  </div>
+                  <h3 className="title text-anime-style-3 pb-32">No esperes más, tu sonrisa merece lo mejor.
+                  Recupera tu confianza con tratamientos dentales de calidad en Boka.</h3>
+                  <div>
+                        <a 
+                            href="https://wa.me/52747161" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="whatsapp-button whatsapp-button--filled whatsapp-button--compact"
+                        >
+                            <i className="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        </div>
                 </div>
               </div>
               <div className="col-lg-2">

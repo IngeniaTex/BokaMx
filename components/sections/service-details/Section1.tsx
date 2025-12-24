@@ -125,7 +125,7 @@ export default function Section1({ left, single }: { left?: boolean; single?: bo
                             </div>
                         </div>
                         <div className={`col-lg-8 mb-30 ${left ? "" : "order-1"} ${single ? "mx-auto" : ""}`}>
-                            <div className={`vl-sidebar-details ${left ? "ml-80" : "mr-80"} ${single ? "me-0" : ""}`}>
+                            <div >
                                 {/* thumb */}
                                 <div className="vl-thumb-larg mb-32">
                                     <img className="br-8 w-100" src="assets/img/service/vl-service-learg-thumb-1.1.png" alt="" />
