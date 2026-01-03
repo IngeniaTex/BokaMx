@@ -16,7 +16,7 @@ export default function Section9() {
                   Recupera tu confianza con tratamientos dentales de calidad en Boka.</h3>
                   <div>
                         <a 
-                            href="https://wa.me/52747161" 
+                            href="https://wa.me/527471619921" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             className="whatsapp-button whatsapp-button--filled whatsapp-button--compact"
