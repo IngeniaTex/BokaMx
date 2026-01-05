@@ -22,7 +22,7 @@ export default function Section1() {
     e.preventDefault();
     setStatus("Enviando...");
 
-    const response = await fetch("/api/contact/sendEmail", {
+    const response = await fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
