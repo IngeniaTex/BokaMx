@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ContactForm from "./contact-form"
+
 
 export default function Section1() {
     return (
@@ -11,7 +13,8 @@ export default function Section1() {
                             <div className="vl-contact-form-iner">
                                 <h4 className="title">Escríbenos</h4>
                                 <p className="para pt-16 pb-22">Nuestro tiempo de respuesta es de 30 min dentro del horario laboral.</p>
-                                <form action="#">
+                                <ContactForm/>
+                                {/* <form action="#">
                                     <div className="vl-conatct-iner-form">
                                         <div className="row">
                                             <div className="col-lg-6">
@@ -43,7 +46,7 @@ export default function Section1() {
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                         <div className="col-lg-6 mb-30">

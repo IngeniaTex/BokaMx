@@ -13,13 +13,13 @@ export default function Section1() {
                                     <img className="w-100" src="assets/img/banner/eror-thumb.png" alt="" />
                                 </div>
                                 <div className="eror-content">
-                                    <h3 className="title">Sorry, Something Went Wrong</h3>
+                                    <h3 className="title">Disculpanos, algo salio mal</h3>
                                     <p className="para pt-16 pb-32">
-                                        But don't worry, we've got your back. Here are a few options to get you <br /> back on track: Contact Support: If you believe a problem with our site.
+                                        Pero no te preocupes aun te podemos atender en Boka Clínica Dental. Si el problema persiste favor de comunicarte directamente a la clínica para darte la informacion que necesitas. 
                                     </p>
                                     <div className="eror-btn">
                                         <Link href="/" className="vl-btn-primary">
-                                            back To Home
+                                            Regresar al inicio
                                         </Link>
                                     </div>
                                 </div>
