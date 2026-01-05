@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     await transporter.sendMail({
       from: `"Formulario Web Boka Mx" <${process.env.GMAIL_USER}>`,
       to: process.env.GMAIL_RECEIVER,
-      subject: `Nuevo mensaje de ${name}`,
+      subject: `Nuevo mensaje de PAGINA WEB`,
       html: `
         <h3>Nuevo mensaje del formulario de contacto</h3>
         <p><strong>Nombre:</strong> ${name}</p>

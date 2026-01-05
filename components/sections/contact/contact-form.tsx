@@ -39,7 +39,7 @@ export default function Section1() {
   return (
     <>
       {/*================= Contact section Start =================*/}
-      <section className="vl-contact-inner pt-100 pb-70">
+      <section className="vl-contact-inner">
         <div className="container">
           <div className="row">
               <div className="vl-contact-form-iner">
@@ -70,6 +70,7 @@ export default function Section1() {
                           placeholder="Teléfono"
                           value={formData.phone}
                           onChange={handleChange}
+                          required
                         />
                       </div>
                       <div className="col-lg-6">
