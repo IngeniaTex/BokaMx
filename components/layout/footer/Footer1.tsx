@@ -54,11 +54,13 @@ export default function Footer() {
                                             <Link href="/about">Nosotros</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">Appointment</Link>
-                                        </li>
-                                
-                                        <li>
                                             <Link href="/service">Tratamientos</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/instalaciones">Instalaciones</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/contact">Contacto</Link>
                                         </li>
                                     </ul>
                                 </div>
