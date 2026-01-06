@@ -18,6 +18,11 @@ export default function MainMenu() {
                 </Link>
             </li>
             <li>
+                <Link href="/instalaciones">
+                    Instalaciones
+                </Link>
+            </li>
+            <li>
                 <Link href="/contact">Contacto</Link>
             </li>
         </ul>

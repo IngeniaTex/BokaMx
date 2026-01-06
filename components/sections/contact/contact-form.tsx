@@ -12,7 +12,10 @@ export default function Section1() {
     message: "",
   });
 
-  const [status, setStatus] = useState<string | null>(null);
+  const [status, setStatus] = useState<{ text: string; type: "sending" | "success" | "error" | null }>({
+    text: "",
+    type: null,
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,7 +23,7 @@ export default function Section1() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("Enviando...");
+    setStatus({ text: "Enviando mensaje...", type: "sending" });
 
     const response = await fetch("/api/contact", {
       method: "POST",
@@ -29,102 +32,104 @@ export default function Section1() {
     });
 
     if (response.ok) {
-      setStatus("Mensaje enviado con éxito. ¡Gracias por contactarnos!");
+      setStatus({ text: "✅ Mensaje enviado con éxito. ¡Gracias por contactarnos!", type: "success" });
       setFormData({ name: "", phone: "", email: "", service: "Odontología", message: "" });
+      setTimeout(() => setStatus({ text: "", type: null }), 5000); // limpia mensaje
     } else {
-      setStatus("Error al enviar. Intenta nuevamente.");
+      setStatus({ text: "❌ Error al enviar. Intenta nuevamente.", type: "error" });
+      setTimeout(() => setStatus({ text: "", type: null }), 5000);
     }
   };
 
   return (
-    <>
-      {/*================= Contact section Start =================*/}
-      <section className="vl-contact-inner">
-        <div className="container">
-          <div className="row">
-              <div className="vl-contact-form-iner">
-                <h4 className="title">Escríbenos</h4>
-                <p className="para pt-16 pb-22">
-                  Nuestro tiempo de respuesta es de 30 minutos dentro del horario laboral.
-                </p>
+    <section className="vl-contact-inner">
+      <div className="container">
+        <div className="row">
+          <div className="vl-contact-form-iner">
+            <h4 className="title">Escríbenos</h4>
+            <p className="para pt-16 pb-22">
+              Nuestro tiempo de respuesta es de 30 minutos dentro del horario laboral.
+            </p>
 
-                <form onSubmit={handleSubmit}>
-                  <div className="vl-conatct-iner-form">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <input
-                          className="mb-20"
-                          type="text"
-                          name="name"
-                          placeholder="Nombre"
-                          value={formData.name}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                      <div className="col-lg-6">
-                        <input
-                          className="mb-20"
-                          type="text"
-                          name="phone"
-                          placeholder="Teléfono"
-                          value={formData.phone}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                      <div className="col-lg-6">
-                        <input
-                          className="mb-20"
-                          name="email"
-                          type="email"
-                          placeholder="Correo electrónico"
-                          value={formData.email}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                      <div className="col-lg-6">
-                        <select
-                          className="mb-20 nice-select wide vl-service-select-iner"
-                          name="service"
-                          value={formData.service}
-                          onChange={handleChange}
-                        >
-                          <option value="Odontología">Odontología</option>
-                          <option value="Limpieza y Periodoncia">Limpieza y Periodoncia</option>
-                          <option value="Odontopediatría">Odontopediatría</option>
-                          <option value="Estética Dental">Estética Dental</option>
-                        </select>
-                      </div>
-                      <div className="col-lg-12">
-                        <textarea
-                          name="message"
-                          id="msg"
-                          placeholder="Mensaje"
-                          value={formData.message}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="vl-cmt-btn mt-24">
-                          <button type="submit" className="vl-btn-primary">
-                            Agenda una cita
-                          </button>
-                        </div>
-                        {status && <p className="mt-3">{status}</p>}
-                      </div>
-                    </div>
+            <form onSubmit={handleSubmit}>
+              <div className="vl-conatct-iner-form">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <input
+                      className="mb-20"
+                      type="text"
+                      name="name"
+                      placeholder="Nombre"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
+                    />
                   </div>
-                </form>
-              </div>
+                  <div className="col-lg-6">
+                    <input
+                      className="mb-20"
+                      type="text"
+                      name="phone"
+                      placeholder="Teléfono"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-6">
+                    <input
+                      className="mb-20"
+                      name="email"
+                      type="email"
+                      placeholder="Correo electrónico"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-6">
+                    <select
+                      className="mb-20 nice-select wide vl-service-select-iner"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                    >
+                      <option value="Odontología">Odontología</option>
+                      <option value="Limpieza y Periodoncia">Limpieza y Periodoncia</option>
+                      <option value="Odontopediatría">Odontopediatría</option>
+                      <option value="Estética Dental">Estética Dental</option>
+                    </select>
+                  </div>
+                  <div className="col-lg-12">
+                    <textarea
+                      name="message"
+                      id="msg"
+                      placeholder="Mensaje"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-12">
+                    <div className="vl-cmt-btn mt-24">
+                      <button type="submit" className="vl-btn-primary">
+                        Agenda una cita
+                      </button>
+                    </div>
 
-         
+                    {/* Mensaje de estado destacado */}
+                    {status.type && (
+                      <p className={`form-status mt-4 ${status.type}`}>
+                        {status.text}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-      </section>
-      {/*================= Contact section End =================*/}
-    </>
+      </div>
+    </section>
   );
 }
