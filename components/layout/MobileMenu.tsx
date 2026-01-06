@@ -48,6 +48,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, offcanvas_b
                                     <Link href="/service">Tratamientos</Link>
                                 </li>
                                 <li>
+                                    <Link href="/instalaciones">Instalaciones</Link>
+                                </li>
+                                <li>
                                     <Link href="/contact">Contacto</Link>
                                 </li>
                             </ul>
