@@ -90,7 +90,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, offcanvas_b
                         <div className={`vl-footer-social-mobile ${offcanvas_social}`}>
                             <ul>
                                 <li>
-                                    <Link href="https://tr.ee/UpvdG2cb1ohttps://www.facebook.com/BokaMX/">
+                                    <Link href="https://www.facebook.com/BokaMX">
                                         <i className="fa-brands fa-facebook-f" />
                                     </Link>
                                 </li>
