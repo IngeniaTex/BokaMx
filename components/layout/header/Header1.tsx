@@ -1,7 +1,6 @@
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 import MainMenu from "../MainMenu";
-import MainMenuOnePage1 from "../MainMenuOnePage1";
 
 export default function Header({ scroll, isMobileMenu, mainMenuStyle, handleMobileMenu, offcanvas_bg, offcanvas_menu, offcanvas_social }: any) {
     return (
@@ -26,7 +25,6 @@ export default function Header({ scroll, isMobileMenu, mainMenuStyle, handleMobi
                                 <div className="vl-main-menu text-center">
                                     <nav className="vl-mobile-menu -active">
                                         {!mainMenuStyle && <MainMenu />}
-                                        {mainMenuStyle == "one-page" ? <MainMenuOnePage1 /> : null}
                                     </nav>
                                 </div>
                             </div>

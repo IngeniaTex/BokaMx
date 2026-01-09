@@ -24,7 +24,7 @@ export default function Footer() {
                                 <div className="vl-footer-social">
                                     <ul>
                                         <li>
-                                            <Link href="https://tr.ee/UpvdG2cb1ohttps://www.facebook.com/BokaMX/">
+                                            <Link href="https://www.facebook.com/BokaMX">
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
                                         </li>
