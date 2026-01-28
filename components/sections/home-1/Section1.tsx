@@ -127,7 +127,7 @@ export default function Section1() {
         <div className="swiper-pagination"></div>
       </Swiper>
       {/*================= Banner section End =================*/}
-      <ModalVideo channel="youtube" isOpen={isOpen} videoId="yD3ZjVg0RWk" onClose={() => setOpen(false)} />
+      <ModalVideo channel="youtube" isOpen={isOpen} videoId="KA_1YGWXSAo" onClose={() => setOpen(false)} />
     </>
   );
 }
