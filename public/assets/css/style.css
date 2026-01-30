@@ -12242,21 +12242,23 @@ textarea {
 }
 
 .video-shape {
-  position: absolute;
-  bottom: -60px;
-  right: 0;
-  border: 8px solid #fff;
   border-radius: 8px;
+  position: relative;
+  height: 100px;
+  width: 100px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .video-shape {
-    bottom: -90px;
-    right: -10px;
+    position: relative;
+    height: 100px;
+    width: 100px;
   }
 }
 @media (max-width: 575px) {
   .video-shape {
     position: relative;
+    height: 100px;
+    width: 100px;
   }
 }
 @media (max-width: 575px) {
@@ -12431,7 +12433,7 @@ div#banner-slid1e {
 }
 #banner-slid1e .swiper-slide.swiper-slide-active .vl-banner-area-content .vl-hero-btn .vl-btn-primary {
   transform: translateX(0px);
-  transition: 1100ms;
+  transition: 1100ms; 
 }
 
 #banner-slid1e .swiper-slide.swiper-slide-active .shape.shape-1 {

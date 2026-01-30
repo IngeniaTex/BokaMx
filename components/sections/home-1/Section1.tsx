@@ -56,22 +56,20 @@ export default function Section1() {
                         <Link href="/contact" className="vl-btn-primary">
                           Agenda tu cita!                                                                              
                         </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 p-relative">
-                    <div className="video-shape">
-                      <img src="assets/img/banner/clinic-boka.jpg" alt="" />
-                      <div className="play-button-container">
-                        <div className="play-button" onClick={() => setOpen(true)}>
-                          <div className="play-icon popup-video">
-                            <i className="fa-duotone fa-solid fa-play" />
+                        <div className="video-shape">
+                          <img  alt="" />
+                          <div className="play-button-container">
+                            <div className="play-button" onClick={() => setOpen(true)}>
+                              <div className="play-icon popup-video">
+                                <i className="fa-duotone fa-solid fa-play" />
+                              </div>
+                              {/* Play icon */}
+                            </div>
+                            <div className="wave wave-1" />
+                            <div className="wave wave-2" />
+                            <div className="wave wave-3" />
                           </div>
-                          {/* Play icon */}
                         </div>
-                        <div className="wave wave-1" />
-                        <div className="wave wave-2" />
-                        <div className="wave wave-3" />
                       </div>
                     </div>
                   </div>
@@ -79,6 +77,7 @@ export default function Section1() {
               </div>
             </div>
           </SwiperSlide>
+          
           <SwiperSlide className="swiper-slide">
             {/* single slider */}
             <div className="vl-banner-area" data-background="./assets/img/banner/banner_boka.jpg">
@@ -99,22 +98,20 @@ export default function Section1() {
                         <Link href="/contact" className="vl-btn-primary">
                           Agenda tu cita!
                         </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 p-relative">
-                    <div className="video-shape">
-                      <img src="assets/img/banner/clinic-boka.jpg" alt="" />
-                      <div className="play-button-container">
-                        <div className="play-button" onClick={() => setOpen(true)}>
-                          <div className="play-icon popup-video">
-                            <i className="fa-duotone fa-solid fa-play" />
+                        <div className="video-shape">
+                          <img  alt="" />
+                          <div className="play-button-container">
+                            <div className="play-button" onClick={() => setOpen(true)}>
+                              <div className="play-icon popup-video">
+                                <i className="fa-duotone fa-solid fa-play" />
+                              </div>
+                              {/* Play icon */}
+                            </div>
+                            <div className="wave wave-1" />
+                            <div className="wave wave-2" />
+                            <div className="wave wave-3" />
                           </div>
-                          {/* Play icon */}
                         </div>
-                        <div className="wave wave-1" />
-                        <div className="wave wave-2" />
-                        <div className="wave wave-3" />
                       </div>
                     </div>
                   </div>
