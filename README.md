@@ -530,4 +530,4 @@ npm run start
 
 # Créditos
 
-Proyecto desarrollado para **Boka Clínica Dental Integral** utilizando **Next.js**, **React**, **TypeScript** y **Bootstrap**, siguiendo una arquitectura modular basada en componentes reutilizables para facilitar futuras adaptaciones a nuevos proyectos del mismo tipo.
+Proyecto adaptado para Boka Clínica Dental a partir de un template dental base
